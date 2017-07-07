@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="PYOpenable">
+    <Position X="0.75" Y="2.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PYOpenable.PYOpenableEventArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\PlayTableAPI\Scripts\PYOpenable.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="PYOpenable.OpenableState">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\PlayTableAPI\Scripts\PYOpenable.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="PYOpenable.OpenableEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\PlayTableAPI\Scripts\PYOpenable.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAIAAACAAAAAAAEIgAAAIQAAAABACAAAA=</HashCode>
+      <FileName>Assets\PlayTableAPI\Scripts\PYOpenable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PYPopup">
+    <Position X="4.5" Y="7.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="PYPopup.AnimationData">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\PlayTableAPI\Scripts\PYPopup\PYPopup.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAAAAAACVSAAIAAQAAAAAAAAQAwAIAAAgAAQgACACAI=</HashCode>
+      <FileName>Assets\PlayTableAPI\Scripts\PYPopup\PYPopup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PYSceneManager">
+    <Position X="4.5" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="PYSceneManager.AnimatorTag">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\PlayTableAPI\Scripts\PYSceneManager\PYSceneManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACQAMAAAAAAAwAAAAAEgAABAAEAACQCAAgA=</HashCode>
+      <FileName>Assets\PlayTableAPI\Scripts\PYSceneManager\PYSceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSceneManager">
+    <Position X="8.75" Y="0.5" Width="2.5" />
+    <InheritanceLine Type="PYSceneManager" FixedFromPoint="true">
+      <Path>
+        <Point X="7.5" Y="1.75" />
+        <Point X="8.75" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\PlayTableAPI\Scripts\PYSceneManager\GameSceneManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MainMenuManager">
+    <Position X="12.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAIACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEg=</HashCode>
+      <FileName>Assets\PlayTableAPI\Scripts\PYSceneManager\MainMenuManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OptionsMenuManager">
+    <Position X="12" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACBAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\PlayTableAPI\Scripts\PYSceneManager\OptionsMenuManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScoreMenuManager">
+    <Position X="8.75" Y="4.5" Width="2.5" />
+    <InheritanceLine Type="PYSceneManager" FixedFromPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.75" />
+        <Point X="8.75" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACBAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\PlayTableAPI\Scripts\PYSceneManager\ScoreMenuManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PYAlertPopup">
+    <Position X="8.5" Y="7.5" Width="3" />
+    <InheritanceLine Type="PYPopup" FixedFromPoint="true">
+      <Path>
+        <Point X="7" Y="8.688" />
+        <Point X="8.5" Y="8.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAIEAAAIAAAAECGAABAAAACAAICYCAAAA=</HashCode>
+      <FileName>Assets\PlayTableAPI\Scripts\PYPopup\PYAlertPopup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlackFader">
+    <Position X="12.75" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAKAgIAAAAAAQAAAAAICAEAAAAIAAAgCAABA=</HashCode>
+      <FileName>Assets\PlayTableAPI\Scripts\Misc\BlackFader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayTableKeyboard">
+    <Position X="17" Y="0.75" Width="3" />
+    <AssociationLine Name="Instance" Type="PlayTableKeyboard" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17" Y="1.062" />
+        <Point X="16.75" Y="1.062" />
+        <Point X="16.75" Y="1.438" />
+        <Point X="17" Y="1.438" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>KAQAiCGAACCIJCAIGFMKQWEYCANFQBAARBAAAQSABFA=</HashCode>
+      <FileName>Assets\PlayTableAPI\PlayTableKeyboard\Scripts\PlayTableKeyboard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="CurrentState" />
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="KeyboardState">
+    <Position X="21.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\PlayTableAPI\PlayTableKeyboard\Scripts\PlayTableKeyboard.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

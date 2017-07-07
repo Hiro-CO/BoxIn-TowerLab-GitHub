@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Weapon
+  - Enemy
+  - Floor
+  - FloorAbove
+  - GroundedA
+  - Coin
+  - ScoreNumber
+  - Spawner
+  - WeaponContainer
+  - AudioController
+  - BackgroundMusicObject
+  - JointObject
+  - PlayerBox
+  - DraggedBox
+  - PlayerBoxDrag
+  - ApiContainer
+  - AchievementVisualObject
+  - LoginText
+  - VoiceSoundObject
+  - Glass
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Floor
+  - FloorAbove
+  - Player
+  - Enemy
+  - NamesRegister
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: NamesRegister
+    uniqueID: 3410334849
+    locked: 0

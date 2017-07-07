@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &126054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400792}
+  - 114: {fileID: 11432362}
+  - 114: {fileID: 11427182}
+  m_Layer: 0
+  m_Name: Skateboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400792
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.203275, y: 2.0134792, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11427182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82839cb85dd4d6447b75059a2074417c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicToPlay: 8
+--- !u!114 &11432362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468d5793ca14aba4cb6c883271d4340f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  code: skateboard
+  nameEn: Skateboard
+  namePt: Skate
+  nameEs: Banana
+  mainTag: 5
+  stageTag: 18
+  difficulty: 1
+  extraTags: 
+  spritesToSwap:
+  - {fileID: 21300004, guid: a475d3d454bcd784ab4b77840ec9edac, type: 3}
+  - {fileID: 21300006, guid: a475d3d454bcd784ab4b77840ec9edac, type: 3}
+  background: {fileID: 126858, guid: 95c831bc3e448b44c8068086e0c4a24e, type: 2}
+  deathAudio: 86
+  secondaryAction: {fileID: 11427182}
+  useSparkles: 0
+  timeToSpawn: 1
+  timeToDisable: 1.5
+  timeToDisableMultispawn: 4
+  useMultiSpawn: 0
+  multiSpawnPercentage: 10
+  multiSpawnNumber: 3
+  multiSpawnTime: 0.5
+  multiSpawnPositionX: 0.2
+  multiSpawnScale: {x: 0.5, y: 0.5, z: 0.5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 126054}
+  m_IsPrefabParent: 1
